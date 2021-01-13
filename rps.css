@@ -48,6 +48,16 @@ header{
 	left: 208px;
 }
 
+#youImg{
+position: absolute;
+    left: -200px;
+        height: 230px;
+}
+#ashImg{
+	position: absolute;
+    left: 280px;
+}
+
 #user-choice{
 	position: absolute;
 	font-size: 35px;
@@ -116,7 +126,7 @@ header{
 
 .match{
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	transition: opacity 0.5s ease;

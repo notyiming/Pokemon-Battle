@@ -23,11 +23,11 @@ function getComputerChoice() {
 
 function convertToWord(letter) {
 	if (letter === "r") {
-		return "Rock";
+		return "Squirtle";
 	} else if (letter === "p") {
-		return "Paper";
+		return "Bulbasaur";
 	} else if (letter === "s") {
-		return "Scissor";
+		return "Charmander";
 	}
 }
 

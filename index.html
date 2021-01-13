@@ -8,15 +8,17 @@
 <body>
 	<header>
 		<h1>
-			Rock Paper Scissors
+			Pokemon Battle!
 		</h1>
 	</header>
 	<main>
 		<div class="scoreBoard">
+			<img  id="youImg" src="images/you.png" width="120">
 			<div class="badge" id="user-label">You</div>
-			<div id="user-choice"></div>
-			<div class="badge" id="comp-label">CPU</div>
-			<div id="comp-choice"></div>
+			<div id="user-choice" style="display: none"></div>
+			<img  id="ashImg" src="images/ash.png" width="120">
+			<div class="badge" id="comp-label">Ash</div>
+			<div id="comp-choice" style="display: none"></div>
 			<span id="user-score">0</span> - <span id="comp-score">0</span>
 		</div>
 
@@ -29,12 +31,12 @@
 
 		<div class="match fadeOut">
 			<div class="hands">
-				<img id="user-hand" class="user-hand" src="images/rock.png" width="120">
-				<img id="comp-hand" class="comp-hand" src="images/rock.png" width="120">
+				<img id="comp-hand" class="comp-hand" src="images/pokeball.png" width="120">
+				<img id="user-hand" class="user-hand" src="images/pokeball.png" width="120">
 			</div>
 
 			<div class="result">
-			<p>Select your first move.</p>
+			<p>Select your pokemon.</p>
 		</div>
 
 		<div class="choices">
