@@ -33,21 +33,21 @@ function convertToWord(letter) {
 
 function convertToImageUser(letter) {
 	if (letter === "r") {
-		userHand.src = "images/rock.png";
+		userHand.src = "images/squirtle.png";
 	} else if (letter === "p") {
-		userHand.src = "images/paper.png";
+		userHand.src = "images/bulbasaur.png";
 	} else if (letter === "s") {
-		userHand.src = "images/scissors.png";
+		userHand.src = "images/charmander.png";
 	}
 }
 
 function convertToImageComp(letter) {
 	if (letter === "r") {
-		compHand.src = "images/rock.png";
+		compHand.src = "images/squirtle.png";
 	} else if (letter === "p") {
-		compHand.src = "images/paper.png";
+		compHand.src = "images/bulbasaur.png";
 	} else if (letter === "s") {
-		compHand.src = "images/scissors.png";
+		compHand.src = "images/charmander.png";
 	}
 }
 
